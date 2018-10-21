@@ -1,4 +1,7 @@
 # stat1
+
+Simple app featuring d3.js and React
+
 1) clone or download & unzip repo
 2) $ npm install
 3) $ npm start
