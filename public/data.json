@@ -1,0 +1,42 @@
+{
+	"subject": "Keskmine brutokuupalk (€)",
+	"data": [
+		{ "aasta": "2006", "I kvartal": "549", "II kvartal": "609", "III kvartal": "580", "IV kvartal": "653" },
+		{ "aasta": "2007", "I kvartal": "660", "II kvartal": "738", "III kvartal": "697", "IV kvartal": "784" },
+		{ "aasta": "2008", "I kvartal": "788", "II kvartal": "850", "III kvartal": "800", "IV kvartal": "838" },
+		{ "aasta": "2009", "I kvartal": "776", "II kvartal": "813", "III kvartal": "752", "IV kvartal": "783" },
+		{ "aasta": "2010", "I kvartal": "758", "II kvartal": "822", "III kvartal": "759", "IV kvartal": "814" },
+		{ "aasta": "2011", "I kvartal": "792", "II kvartal": "857", "III kvartal": "809", "IV kvartal": "865" },
+		{ "aasta": "2012", "I kvartal": "847", "II kvartal": "900", "III kvartal": "855", "IV kvartal": "916" },
+		{ "aasta": "2013", "I kvartal": "900", "II kvartal": "976", "III kvartal": "930", "IV kvartal": "986" },
+		{
+			"aasta": "2014",
+			"I kvartal": "966",
+			"II kvartal": "1023",
+			"III kvartal": "977",
+			"IV kvartal": "1039"
+		},
+		{
+			"aasta": "2015",
+			"I kvartal": "1010",
+			"II kvartal": "1082",
+			"III kvartal": "1045",
+			"IV kvartal": "1105"
+		},
+		{
+			"aasta": "2016",
+			"I kvartal": "1091",
+			"II kvartal": "1163",
+			"III kvartal": "1119",
+			"IV kvartal": "1182"
+		},
+		{
+			"aasta": "2017",
+			"I kvartal": "1153",
+			"II kvartal": "1242",
+			"III kvartal": "1201",
+			"IV kvartal": "1271"
+		},
+		{ "aasta": "2018", "I kvartal": "1242", "II kvartal": "1321", "III kvartal": "-", "IV kvartal": "-" }
+	]
+}

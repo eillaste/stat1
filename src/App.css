@@ -1,0 +1,36 @@
+html {
+	background-color: #003950;
+}
+
+rect:hover {
+	cursor: pointer;
+}
+
+svg {
+	position: relative;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	margin: 0 auto;
+	border: 1px solid white;
+}
+
+.axis path {
+	stroke: white;
+}
+.axis line {
+	stroke: white;
+}
+.axis text {
+	font-family: Optima, Futura, sans-serif;
+	font-weight: bold;
+	font-size: 0.9rem;
+	fill: white;
+}
+@media screen and (max-width: 50.000em) {
+	svg {
+		margin-left: 3%;
+		border: 1px solid white;
+	}
+}
