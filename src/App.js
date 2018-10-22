@@ -8,7 +8,9 @@ import styled from 'styled-components';
 class App extends Component {
 	state = {
 		data: [],
-		subject: ''
+		subject: '',
+		width: 600,
+		height: 300
 	};
 
 	getData = () => {
@@ -18,6 +20,7 @@ class App extends Component {
 				subject: response.data.subject
 			})
 		);
+		// .then(() => console.log(this.state));
 	};
 
 	componentDidMount() {
@@ -25,7 +28,7 @@ class App extends Component {
 	}
 
 	render() {
-		const { data, subject } = this.state;
+		const { width, height, data, subject } = this.state;
 
 		const Wrapper = styled.div`
 			text-align: center;
@@ -38,7 +41,13 @@ class App extends Component {
 				<Header />
 
 				<Router>
-					<Detail subject={subject} data={data} path={'/Keskmine-brutokuupalk'} />
+					<Detail
+						subject={subject}
+						data={data}
+						width={width}
+						height={height}
+						path={'/Keskmine-brutokuupalk'}
+					/>
 				</Router>
 			</Wrapper>
 		);

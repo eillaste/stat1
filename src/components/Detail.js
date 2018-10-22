@@ -1,11 +1,11 @@
 import React from 'react';
 import Chart from './Chart';
-
+import logo from '../logo.svg';
 import styled from 'styled-components';
 
 class Detail extends React.Component {
 	render() {
-		const { subject, data } = this.props;
+		const { subject, data, width, height } = this.props;
 		const Detail = styled.div`
 			-webkit-animation: fadein 1.6s; /* Safari, Chrome and Opera > 12.1 */
 			-moz-animation: fadein 1.6s; /* Firefox < 16 */
@@ -69,9 +69,17 @@ class Detail extends React.Component {
 			}
 		`;
 
+		const Logo = styled.img`
+			height: 30vmin;
+			padding-top: 0.625rem;
+			margin: 0;
+		`;
+
 		return (
 			<Detail>
-				<Chart subject={subject} data={data} />
+				<Chart subject={subject} data={data} width={width} height={height} />
+				<div />
+				<div />
 			</Detail>
 		);
 	}

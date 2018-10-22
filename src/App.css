@@ -1,7 +1,3 @@
-html {
-	background-color: #003950;
-}
-
 rect:hover {
 	cursor: pointer;
 }
@@ -13,16 +9,29 @@ svg {
 	-ms-transform: translateX(-50%);
 	transform: translateX(-50%);
 	margin: 0 auto;
-	border: 1px solid white;
+	border: 1px solid #003950;
 }
 
 .axis path {
-	stroke: white;
 }
 .axis line {
 	stroke: white;
+	shape-rendering: crispEdges;
 }
 .axis text {
+	font-family: Optima, Futura, sans-serif;
+	font-weight: bold;
+	font-size: 0.9rem;
+	fill: teal;
+}
+
+.axis2 path {
+	stroke: white;
+}
+.axis2 line {
+	stroke: #003950;
+}
+.axis2 text {
 	font-family: Optima, Futura, sans-serif;
 	font-weight: bold;
 	font-size: 0.9rem;
@@ -33,4 +42,46 @@ svg {
 		margin-left: 3%;
 		border: 1px solid white;
 	}
+}
+
+h3 {
+	color: white;
+}
+
+#esimene,
+#teine,
+#kolmas,
+#neljas {
+	color: pink;
+	border: none;
+	margin: 0.625rem;
+	padding: 0.8125rem;
+	width: 9.345rem;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #ffb127;
+	box-shadow: 0rem 0rem 0.9375rem rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	font-size: 0.975rem;
+	margin-right: 1.25rem;
+	border-radius: 0.1875rem;
+}
+#esimene:focus,
+#teine:focus,
+#kolmas:focus,
+#neljas:focus {
+	outline-color: #ffb127;
+}
+
+#esimene:hover,
+#teine:hover,
+#kolmas:hover,
+#neljas:hover {
+	box-shadow: 0rem 0.5rem 1.25rem rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	transform: translateY(-0.1875rem);
+}
+
+#button-group {
+	margin: 0 auto;
+	text-align: center;
 }
